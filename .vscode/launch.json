@@ -1,0 +1,73 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "StudentCreate",
+      "request": "launch",
+      "mainClass": "entityrelationship.StudentCreate",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "type": "java",
+      "name": "StudentRead",
+      "request": "launch",
+      "mainClass": "entityrelationship.StudentRead",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "type": "java",
+      "name": "PokedexInitiatorDelete",
+      "request": "launch",
+      "mainClass": "com.pd.PokedexInitiatorDelete",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "type": "java",
+      "name": "PokedexInitiatorUpdate",
+      "request": "launch",
+      "mainClass": "com.pd.PokedexInitiatorUpdate",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "type": "java",
+      "name": "PokedexInitiatorCreate",
+      "request": "launch",
+      "mainClass": "com.pd.PokedexInitiatorCreate",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "type": "java",
+      "name": "PokedexInitiatorRead",
+      "request": "launch",
+      "mainClass": "com.pd.PokedexInitiatorRead",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "type": "java",
+      "name": "PokedexInitiator",
+      "request": "launch",
+      "mainClass": "com.pd.PokedexInitiator",
+      "projectName": "firstjpaproject"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "cppdbg",
+      "request": "launch",
+      "args": [],
+      "stopAtEntry": false,
+      "externalConsole": true,
+      "cwd": "c:/Users/HP/OneDrive/Desktop/Code/myjavacode/ADV Java/Hibernet and JPA/firstjpaproject",
+      "program": "c:/Users/HP/OneDrive/Desktop/Code/myjavacode/ADV Java/Hibernet and JPA/firstjpaproject/build/Debug/outDebug",
+      "MIMode": "gdb",
+      "miDebuggerPath": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true
+        }
+      ]
+    }
+  ]
+}
