@@ -12,25 +12,25 @@ public class StudentCreate {
     public static void main(String[] args) {
         
         Student s1 = new Student();
-        s1.setName("Prajwal");
+        s1.setName("Utkarsh");
 
         Student s2 = new Student();
-        s2.setName("Rohan");
+        s2.setName("Hanuman");
 
         StudentIdCard c1 = new StudentIdCard();
-        c1.setSoftwareVersion("1.0.1");
+        c1.setSoftwareVersion("1.0.3");
         c1.setStudent(s1);
         StudentIdCard c2 = new StudentIdCard();
-        c2.setSoftwareVersion("1.0.2");
+        c2.setSoftwareVersion("1.0.4");
         c2.setStudent(s2);
         
         s1.setCard(c1);
         s2.setCard(c2);
 
         Course co1 = new Course();
-        co1.setCourseName("C programing");
+        co1.setCourseName("Python programing");
         Course co2 = new Course();
-        co2.setCourseName("DBMS");
+        co2.setCourseName("PC-3");
 
         co1.setStudent(s1);
         co2.setStudent(s2);
@@ -45,7 +45,7 @@ public class StudentCreate {
         s1.setCourseList(l1);
         s2.setCourseList(l2);
 
-        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Prajwal2");
+        EntityManagerFactory entityManagerFactory = Persistence.createEntityManagerFactory("Prajwal");
 
         EntityManager entityManager = entityManagerFactory.createEntityManager();
 
